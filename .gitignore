@@ -1,0 +1,73 @@
+# ==========================================
+# .gitignore - Oficina Karangos Motor Sport
+# ==========================================
+
+# --- Privacidade e Proteção de Dados (LGPD) ---
+# Backup de imagens originais antes do tratamento de privacidade
+imagens/originais_backup/
+assets/images/originais_backup/
+
+# --- IDEs, Editores e Agentes de IA ---
+.agents/
+.docs/
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.cursor/
+
+# --- Scripts Locais e Utilitários Python ---
+*.py
+*.pyc
+__pycache__/
+venv/
+.venv/
+env/
+.pytest_cache/
+
+# --- Arquivos de Sistema Operacional ---
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+*.lnk
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+.directory
+
+# --- Logs, Caches e Arquivos Temporários ---
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+
+# --- Variáveis de Ambiente e Segredos ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.key
+*.cert
+
+# --- Dependências (se aplicável no futuro) ---
+node_modules/
+dist/
+build/

@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600" fill="none" opacity="0.85">
+  <!-- Padrão Técnico de Peças de Performance e Automobilismo em Marca D'água -->
+  <defs>
+    <linearGradient id="wmGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF5500" stop-opacity="0.25"/>
+      <stop offset="50%" stop-color="#00D2FF" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.12"/>
+    </linearGradient>
+    <linearGradient id="wmOrange" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF5500" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#FF3700" stop-opacity="0.10"/>
+    </linearGradient>
+    <linearGradient id="wmBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00D2FF" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#0077FF" stop-opacity="0.08"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Grade Blueprint Sutil de Fundo -->
+  <g stroke="rgba(255,255,255,0.03)" stroke-width="1">
+    <line x1="0" y1="100" x2="600" y2="100" />
+    <line x1="0" y1="200" x2="600" y2="200" />
+    <line x1="0" y1="300" x2="600" y2="300" />
+    <line x1="0" y1="400" x2="600" y2="400" />
+    <line x1="0" y1="500" x2="600" y2="500" />
+    <line x1="100" y1="0" x2="100" y2="600" />
+    <line x1="200" y1="0" x2="200" y2="600" />
+    <line x1="300" y1="0" x2="300" y2="600" />
+    <line x1="400" y1="0" x2="400" y2="600" />
+    <line x1="500" y1="0" x2="500" y2="600" />
+  </g>
+
+  <!-- Turbocompressor / Caracol do Turbo (Marca d'água Superior Esquerda) -->
+  <g transform="translate(80, 80) scale(0.9)" stroke="url(#wmOrange)" stroke-width="2.5" fill="none">
+    <!-- Caracol carcaça -->
+    <path d="M 60,10 A 50,50 0 1,1 10,60 C 10,87.6 32.4,110 60,110 C 95,110 120,80 120,40 L 120,10 L 90,10" />
+    <circle cx="60" cy="60" r="32" stroke="url(#wmGrad)" stroke-width="2" />
+    <circle cx="60" cy="60" r="14" fill="rgba(255,85,0,0.08)" stroke="url(#wmOrange)" stroke-width="2" />
+    <!-- Pás do rotor -->
+    <path d="M 60,35 Q 68,48 60,60" />
+    <path d="M 85,60 Q 72,68 60,60" />
+    <path d="M 60,85 Q 52,72 60,60" />
+    <path d="M 35,60 Q 48,52 60,60" />
+    <path d="M 78,42 Q 68,55 60,60" />
+    <path d="M 78,78 Q 65,68 60,60" />
+    <path d="M 42,78 Q 52,65 60,60" />
+    <path d="M 42,42 Q 55,52 60,60" />
+  </g>
+
+  <!-- Pistão e Biela Forjada (Marca d'água Centro Direita) -->
+  <g transform="translate(380, 70) rotate(25)" stroke="url(#wmBlue)" stroke-width="2.2" fill="none">
+    <!-- Cabeça do Pistão -->
+    <rect x="20" y="10" width="70" height="55" rx="5" />
+    <line x1="20" y1="22" x2="90" y2="22" stroke="url(#wmBlue)" stroke-width="1.5" />
+    <line x1="20" y1="30" x2="90" y2="30" stroke="url(#wmBlue)" stroke-width="1.5" />
+    <line x1="20" y1="38" x2="90" y2="38" stroke="url(#wmBlue)" stroke-width="1.5" />
+    <!-- Pino do pistão -->
+    <circle cx="55" cy="45" r="8" fill="rgba(0,210,255,0.08)" stroke="url(#wmBlue)" stroke-width="2" />
+    <!-- Biela (H-Beam / Forjada) -->
+    <path d="M 47,45 L 45,140 C 45,150 40,155 35,160 C 25,170 30,195 55,195 C 80,195 85,170 75,160 C 70,155 65,150 65,140 L 63,45 Z" stroke="url(#wmGrad)" stroke-width="2" />
+    <circle cx="55" cy="175" r="16" stroke="url(#wmBlue)" stroke-width="2" />
+    <!-- Relevo H-Beam -->
+    <rect x="49" y="65" width="12" height="65" rx="3" stroke="url(#wmOrange)" stroke-width="1.5" />
+  </g>
+
+  <!-- Silhueta Esportiva de Carro Clássico / Muscle Car (Centro Inferior) -->
+  <g transform="translate(60, 360) scale(0.95)" stroke="url(#wmOrange)" stroke-width="2.5" fill="none">
+    <!-- Linha do perfil coupé / muscle car -->
+    <path d="M 10,130 L 45,130 C 55,100 85,100 95,130 L 290,130 C 300,100 330,100 340,130 L 390,130 C 400,125 405,115 400,100 L 380,85 C 340,80 320,65 295,45 C 270,25 210,25 150,30 L 90,65 L 20,80 C 10,85 5,95 5,105 Z" />
+    <!-- Linhas das janelas e portas -->
+    <path d="M 95,65 L 155,35 C 205,32 255,32 280,48 L 295,78 L 190,80 Z" stroke="url(#wmBlue)" stroke-width="2" />
+    <line x1="190" y1="35" x2="190" y2="130" stroke="rgba(255,255,255,0.15)" stroke-width="1.8" />
+    <!-- Rodas esportivas com raios -->
+    <circle cx="70" cy="130" r="24" stroke="url(#wmGrad)" stroke-width="2.5" fill="rgba(10,13,21,0.6)" />
+    <circle cx="70" cy="130" r="12" stroke="url(#wmOrange)" stroke-width="2" />
+    <circle cx="315" cy="130" r="24" stroke="url(#wmGrad)" stroke-width="2.5" fill="rgba(10,13,21,0.6)" />
+    <circle cx="315" cy="130" r="12" stroke="url(#wmOrange)" stroke-width="2" />
+    <!-- Detalhe Scoop de Capô (arrancada/turbo) -->
+    <path d="M 50,75 L 80,68 L 85,75 Z" fill="rgba(255,85,0,0.15)" stroke="url(#wmOrange)" stroke-width="1.5" />
+  </g>
+
+  <!-- Amortecedor Coilover / Suspensão de Competição (Inferior Direita) -->
+  <g transform="translate(470, 320) rotate(-15) scale(0.9)" stroke="url(#wmGrad)" stroke-width="2.2" fill="none">
+    <!-- Haste e Olhal Superior -->
+    <circle cx="30" cy="15" r="10" stroke="url(#wmBlue)" stroke-width="2" />
+    <rect x="25" y="25" width="10" height="40" stroke="url(#wmBlue)" stroke-width="2" />
+    <!-- Mola Helicoidal de Competição -->
+    <path d="M 12,65 Q 48,70 12,85 Q 48,90 12,105 Q 48,110 12,125 Q 48,130 12,145 Q 48,150 12,165 Q 48,170 12,185 Q 48,190 30,195" stroke="url(#wmOrange)" stroke-width="3" />
+    <!-- Corpo e Rosca de Ajuste de Altura -->
+    <rect x="20" y="70" width="20" height="120" stroke="url(#wmBlue)" stroke-width="1.5" />
+    <!-- Olhal Inferior -->
+    <circle cx="30" cy="210" r="10" stroke="url(#wmBlue)" stroke-width="2" />
+  </g>
+
+  <!-- Manômetro / Conta-Giros RPM Racing (Centro Superior) -->
+  <g transform="translate(260, 180) scale(0.85)" stroke="url(#wmBlue)" stroke-width="2" fill="none">
+    <circle cx="50" cy="50" r="45" stroke="url(#wmGrad)" stroke-width="2.5" />
+    <circle cx="50" cy="50" r="38" stroke="rgba(255,255,255,0.1)" stroke-width="1" />
+    <!-- Escala RPM e Shift Light -->
+    <path d="M 20,68 A 38,38 0 1,1 80,68" stroke="url(#wmOrange)" stroke-width="3" stroke-dasharray="2,5" />
+    <!-- Ponteiro apontando para alta rotação -->
+    <line x1="50" y1="50" x2="72" y2="28" stroke="#FF5500" stroke-width="3" stroke-linecap="round" />
+    <circle cx="50" cy="50" r="6" fill="#FF5500" stroke="#FFF" stroke-width="1.5" />
+    <!-- Shift Light no topo -->
+    <circle cx="50" cy="14" r="5" fill="rgba(255,85,0,0.3)" stroke="url(#wmOrange)" stroke-width="2" />
+  </g>
+
+  <!-- Engrenagens de Câmbio / Comando de Válvulas (Canto Superior Direito) -->
+  <g transform="translate(480, 20) scale(0.65)" stroke="url(#wmOrange)" stroke-width="2.5" fill="none">
+    <circle cx="50" cy="50" r="35" stroke="url(#wmGrad)" stroke-width="2" />
+    <circle cx="50" cy="50" r="15" fill="rgba(255,85,0,0.08)" stroke="url(#wmOrange)" stroke-width="2" />
+    <!-- Dentes da engrenagem -->
+    <path d="M 45,10 L 55,10 L 53,16 L 47,16 Z M 45,90 L 55,90 L 53,84 L 47,84 Z M 10,45 L 10,55 L 16,53 L 16,47 Z M 90,45 L 90,55 L 84,53 L 84,47 Z M 22,22 L 29,29 L 26,33 L 19,26 Z M 78,78 L 71,71 L 74,67 L 81,74 Z M 78,22 L 71,29 L 67,26 L 74,19 Z M 22,78 L 29,71 L 33,74 L 26,81 Z" fill="rgba(255,85,0,0.2)" />
+  </g>
+
+  <!-- Válvula de Cabeçote / Inox (Inferior Esquerda) -->
+  <g transform="translate(20, 200) rotate(-30) scale(0.75)" stroke="url(#wmBlue)" stroke-width="2" fill="none">
+    <line x1="40" y1="10" x2="40" y2="100" stroke="url(#wmBlue)" stroke-width="3" />
+    <!-- Prato da Válvula -->
+    <path d="M 20,100 Q 40,110 60,100 L 55,92 L 25,92 Z" fill="rgba(0,210,255,0.1)" stroke="url(#wmBlue)" stroke-width="2" />
+    <!-- Travas de válvula -->
+    <rect x="36" y="15" width="8" height="6" fill="rgba(255,85,0,0.2)" stroke="url(#wmOrange)" stroke-width="1" />
+  </g>
+</svg>
